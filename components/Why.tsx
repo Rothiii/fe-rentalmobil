@@ -2,35 +2,9 @@ import Image from "next/image";
 
 function Why() {
   return (
-    <section className="max-container padding-container py-20">
+    <section className="max-container padding-container">
       {/* Main content container */}
       <div className="flex flex-col lg:flex-row gap-12 items-center">
-        {/* Left side - Image with price card */}
-        <div className="flex-1 relative">
-          <div className="relative w-full max-w-[500px] mx-auto">
-            {/* House Image */}
-            <Image
-              src="/salesman.jpg"
-              alt="Modern House"
-              width={500}
-              height={400}
-              className="w-full h-auto rounded-2xl"
-            />
-
-            {/* Price Card */}
-            <div className="absolute top-4 left-4 bg-white rounded-xl p-4 shadow-lg min-w-[200px]">
-              <h3 className="bold-18 text-gray-900 mb-1">Harga</h3>
-              <p className="regular-14 text-gray-500 mb-2">Dimulai Dari</p>
-              <p className="bold-20 text-green-600">Rp.100.000,00</p>
-            </div>
-
-            {/* 100% Terpercaya Badge */}
-            <div className="absolute bottom-4 left-4 bg-yellow-400 px-4 py-2 rounded-lg">
-              <p className="bold-16 text-gray-900">100% Terpercaya</p>
-            </div>
-          </div>
-        </div>
-
         {/* Right side - Why Choose Us */}
         <div className="flex-1">
           <h2 className="bold-32 lg:bold-40 text-black-100 mb-8">
@@ -78,6 +52,33 @@ function Why() {
             </div>
           </div>
         </div>
+
+        {/* Left side - Image with price card */}
+        <div className="flex-1 relative">
+          <div className="relative w-full max-w-[500px] mx-auto">
+            {/* House Image */}
+            <Image
+              src="/salesman.jpg"
+              alt="Modern House"
+              width={500}
+              height={400}
+              className="w-full h-auto rounded-2xl"
+            />
+
+            {/* Price Card */}
+            <div className="absolute top-4 left-4 bg-white rounded-xl p-4 shadow-lg min-w-[200px]">
+              <h3 className="bold-18 text-gray-900 mb-1">Harga</h3>
+              <p className="regular-14 text-gray-500 mb-2">Dimulai Dari</p>
+              <p className="bold-20 text-green-600">Rp.100.000,00</p>
+            </div>
+
+            {/* 100% Terpercaya Badge */}
+            <div className="absolute bottom-4 left-4 bg-yellow-400 px-4 py-2 rounded-lg">
+              <p className="bold-16 text-gray-900">100% Terpercaya</p>
+            </div>
+          </div>
+        </div>
+
       </div>
 
       {/* Statistics Section */}
