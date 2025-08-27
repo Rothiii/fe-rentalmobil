@@ -1,9 +1,9 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-  { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
+  { href: '/', key: 'kenapa_harus_kami', label: 'Kenapa Harus Kami?' },
+  { href: '/', key: 'layanan', label: 'Layanan' },
+  { href: '/', key: 'pricing', label: 'Pricing' },
   { href: '/', key: 'contact_us', label: 'Contact Us' },
 ];
 
@@ -16,34 +16,39 @@ export const PEOPLE_URL = [
 ];
 
 // FEATURES SECTION
+
 export const FEATURES = [
   {
-    title: 'Real maps can be offline',
-    icon: '/map.svg',
-    variant: 'green',
+    title: "Reguler",
+    icon: "Reguler.png",
+    variant: "green",
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      "Pernjalanan dengan biaya terjangkau",
+    price: "Rp.200.000,00",
   },
   {
-    title: 'Set an adventure schedule',
-    icon: '/calendar.svg',
-    variant: 'green',
+    title: "Delivery",
+    icon: "Delivery.jpg",
+    variant: "green",
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "Kirim barang atau dokumen dengan cepat dan aman",
+    price: "Rp.150.000,00",
   },
   {
-    title: 'Technology using augment reality',
-    icon: '/tech.svg',
-    variant: 'green',
+    title: "Rental",
+    icon: "Rental.png",
+    variant: "green",
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      "Sewa mobil dengan tarif harian",
+    price: "Rp.400.000,00",
   },
   {
-    title: 'Many new locations every month',
-    icon: '/location.svg',
-    variant: 'orange',
+    title: "Carter",
+    icon: "Carter.png",
+    variant: "orange",
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+      "Sewa mobil dengan supir untuk jangka waktu tertentu",
+    price: "Rp.600.000,00",
   },
 ];
 
