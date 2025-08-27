@@ -58,7 +58,7 @@ function Why() {
           <div className="relative w-full max-w-[500px] mx-auto">
             {/* House Image */}
             <Image
-              src="/salesman.jpg"
+              src="/Salesman.jpg"
               alt="Modern House"
               width={500}
               height={400}
