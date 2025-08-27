@@ -1,6 +1,9 @@
+"use client"
+
 import { ROUTES } from "@/constants";
 import Image from "next/image";
 import React from "react";
+import Button from "./Button";
 
 const Guide = () => {
   return (
@@ -57,6 +60,26 @@ const Guide = () => {
         <div className="mt-6 text-center bold-16">
           <p>--- Dan Sekitarnya ---</p>
         </div>
+      </div>
+
+      <div className="mt-10 text-center flex flex-col items-center gap-3">
+        <p className="regular-16 text-gray-500">
+          Masih bingung atau mau bertanya informasi lebih lanjut? Hubungi kami sekarang juga!
+        </p>
+        <Button
+            type="button"
+            title="Hubungi Sekarang"
+            variant="btn_green"
+            onClick={() => {
+              const phoneNumber = "6287841222233"; // Replace with your WhatsApp number
+              const message =
+                "Halo, saya tertarik dengan layanan Travel Kalimantan Timur. Bisa tolong berikan jadwal Travel/Jastip hari ini?";
+              const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+                message
+              )}`;
+              window.open(whatsappUrl, "_blank");
+            }}
+          />
       </div>
     </section>
   );
