@@ -52,6 +52,34 @@ export const FEATURES = [
   },
 ];
 
+// ROUTES SECTION
+export const ROUTES = [
+  {
+    from: "Balikpapan",
+    to: "Samarinda",
+    duration: "2 jam 30 menit",
+    distance: "120 km"
+  },
+  {
+    from: "Balikpapan",
+    to: "Bontang",
+    duration: "3 jam 15 menit",
+    distance: "180 km"
+  },
+  {
+    from: "Samarinda",
+    to: "IKN",
+    duration: "1 jam 45 menit",
+    distance: "85 km"
+  },
+  {
+    from: "Balikpapan",
+    to: "Tanah Grogot",
+    duration: "4 jam 20 menit",
+    distance: "250 km"
+  },
+];
+
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
