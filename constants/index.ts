@@ -20,7 +20,7 @@ export const PEOPLE_URL = [
 export const FEATURES = [
   {
     title: "Reguler",
-    icon: "Reguler.png",
+    icon: "reguler.png",
     variant: "green",
     description:
       "Pernjalanan dengan biaya terjangkau",
@@ -28,7 +28,7 @@ export const FEATURES = [
   },
   {
     title: "Delivery",
-    icon: "Delivery.jpg",
+    icon: "delivery.jpg",
     variant: "green",
     description:
       "Kirim barang atau dokumen dengan cepat dan aman",
@@ -36,7 +36,7 @@ export const FEATURES = [
   },
   {
     title: "Rental",
-    icon: "Rental.png",
+    icon: "rental.png",
     variant: "green",
     description:
       "Sewa mobil dengan tarif harian",
@@ -44,7 +44,7 @@ export const FEATURES = [
   },
   {
     title: "Carter",
-    icon: "Carter.png",
+    icon: "carter.png",
     variant: "orange",
     description:
       "Sewa mobil dengan supir untuk jangka waktu tertentu",
